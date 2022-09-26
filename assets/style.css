@@ -30,9 +30,10 @@ footer {
     border: 6px solid rgb(7, 7, 60);
 }
 img{
-    width: 100%;
-    margin: 20px;
+    width: 92%;
+    margin: auto;
     border: 6px solid rgb(7, 7, 60);
+    margin-top: 10px;
 }
 .about-me{
     background-color: darkolivegreen;
@@ -51,4 +52,32 @@ img{
     color: rgb(7, 7, 60);
     border: 6px solid rgb(7, 7, 60);
     text-align: center;
+}
+.project-1{
+    display:block;
+    width: 80%;
+    margin: auto;
+    background-image: url("./project1.png");
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    
+}
+.project-1 h2{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+.coming-soon{
+    width: 20%;
+    display: inline-block;
 }
